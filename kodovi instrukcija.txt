@@ -1,0 +1,44 @@
+
+BEZADRESNE
+
+push		000000
+pop		000001
+rts		000010
+rti		000011
+inc		000100
+dec		000101
+shr		000110
+shl		000111
+
+SKOKOVI
+
+jmp		001000
+je		001001
+jne		001010
+jgr		001011
+jle		001100
+int		001101
+
+ADRESNE
+
+add		001110
+sub		001111
+xor		010000
+or		010001
+and		010010
+load		010011
+store		010100
+cmp		010101
+tst		010110
+
+
+------------------------------------------------
+
+ADRESIRANJA
+
+regdir 		00000	2R
+regindpom	00001	3R,4R
+memdir		00010	2R
+memindpom	00011   3R
+imm		00101   2R
+pcrel		00110	2R
