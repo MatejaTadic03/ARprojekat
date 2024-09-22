@@ -17,7 +17,6 @@ je		001001
 jne		001010
 jgr		001011
 jle		001100
-int		001101
 
 ADRESNE
 
@@ -36,9 +35,8 @@ tst		010110
 
 ADRESIRANJA
 
-regdir 		00000	2R
-regindpom	00001	3R,4R
-memdir		00010	2R
-memindpom	00011   3R
-imm		00101   2R
-pcrel		00110	2R
+regdir 		00000	
+regindpom	00001	
+memdir		00010	
+memindpom	00011 
+imm		00100  
